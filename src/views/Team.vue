@@ -20,7 +20,7 @@
         </v-flex>
       </v-layout>
     </v-container>
-    <!--
+    
     <v-container fluid >
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10 class="">
@@ -28,10 +28,6 @@
         </v-flex>
       </v-layout>
     </v-container>
-    -->
-   
-
-
   </v-content>
   
 </template>

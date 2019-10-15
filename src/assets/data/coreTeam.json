@@ -1,7 +1,7 @@
 [
     {
         "name":"Sergiu-George Boboc",
-        "designation":"Software Development Manager",
+        "designation": "Organizer",
         "company": "D&S Global Solutions",
         "twitter":"https://twitter.com/sergiu79",
         "linkedin":"https://www.linkedin.com/in/sergiuboboc/",
@@ -11,7 +11,7 @@
     },
     {
         "name":"Sabin Iliescu",
-        "designation":"Senior Software Engineer",
+        "designation":"Co-organizer",
         "company": "iQuest Group",
         "twitter":"https://twitter.com/IliescuSabin",
         "linkedin":"https://www.linkedin.com/in/sabiniliescu/",
@@ -21,7 +21,7 @@
     },
     {
         "name":"Daniel Ianoși",
-        "designation":"Senior PHP Developer",
+        "designation":"Co-organizer",
         "company": "WMD Solution",
         "twitter":"https://twitter.com/ianosid/",
         "linkedin":"https://www.linkedin.com/in/daniel-ianosi-49865948/",
@@ -31,7 +31,7 @@
     },
     {
         "name":"Irina Ștefan",
-        "designation":"QA Software Tester & Scrum Master",
+        "designation":"Co-organizer",
         "company": "eMAG",
         "twitter":"",
         "linkedin":"https://www.linkedin.com/in/irina-stefan-a25329125/",
@@ -41,7 +41,7 @@
     },
     {
         "name":"Andreea Popescu",
-        "designation":"QA Team Lead",
+        "designation":"Co-organizer",
         "company": "iQuest Group",
         "twitter":"",
         "linkedin":"https://www.linkedin.com/in/andreea-popescu-07276a22/",
