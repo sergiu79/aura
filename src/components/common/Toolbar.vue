@@ -11,8 +11,27 @@
 
     />
 
-    <v-toolbar-title class="ml-0 pl-1 mr-1">
-      <router-link :to="{ name: 'home'}" class="google-font" style="text-decoration:none; color: rgba(0,0,0,.87);">{{ChapterDetails.ChapterName}}</router-link>
+    <v-toolbar-title class="ml-0 pl-1 mr-1" style="overflow: visible;">
+      <router-link :to="{ name: 'home'}" class="google-font" style="text-decoration:none; color: rgba(0,0,0,.87);">
+        <v-img
+            :src="require('@/assets/img/gdglogob.svg')"
+            :lazy-src="require('@/assets/img/gdglogob.svg')"
+            width="25%"
+            class="mr-2"
+            style="float:left"
+            >
+            <v-layout
+                slot="placeholder"
+                fill-height
+                align-center
+                justify-center
+                ma-0
+            >
+                <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+            </v-layout>
+        </v-img>
+          {{ChapterDetails.ChapterName}}
+      </router-link>
     </v-toolbar-title>
     <v-spacer />
     <v-btn
