@@ -64,7 +64,7 @@
             </v-flex>
 
             <v-flex xs12 md12 class="mt-3">
-                <p class="google-font my-2" style="font-size:110%">Template Partner</p>
+                <p class="google-font my-2" style="font-size:110%">Sponsors</p>
 
                 <v-layout class="transparent" >
                     <v-flex xs12 sm11 class="elevation-0 transparent">
@@ -72,20 +72,20 @@
                             <v-container grid-list-sm fluid class="pa-0 ma-0">
                                 <v-layout row wrap class="ma-0 pa-0">
                                     <v-flex
-                                        xs6
-                                        md2
-                                        sm4
+                                        xs12
+                                        md6
+                                        sm8
                                         d-flex
-                                        class="white elevation-0"
+                                        class="pa-0 white elevation-0"
                                     >
                                     <v-card flat tile class="d-flex pa-2 ma-1 elevation-1" style="border-radius:5px;border-width: 1px; border-style: solid;">
-                                        <a href="https://gdgcraiova.com" target="_blank">
+                                        <a href="https://scoalainformala.ro" target="_blank">
                                         <v-tooltip bottom>
                                             <template v-slot:activator="{ on }">
                                         <v-img
-                                            :src="require('@/assets/img/partners/gdgCraiova.png')"
-                                            :lazy-src="require('@/assets/img/partners/gdgCraiova.png')"
-                                            aspect-ratio="3.0"
+                                            :src="require('@/assets/img/partners/si.png')"
+                                            :lazy-src="require('@/assets/img/partners/si.png')"
+                                            aspect-ratio="2.4"
                                             class="white"
                                             v-on="on"
                                         >
@@ -100,7 +100,149 @@
                                             </v-layout>
                                         </v-img>
                                         </template>
-                                        <span class="google-font">GDG Craiova</span>
+                                        <span class="google-font">Școala informală de IT</span>
+                                        </v-tooltip>
+                                        </a>
+                                    </v-card>
+                                    <v-card flat tile class="d-flex pa-2 ma-1 elevation-1" style="border-radius:5px;border-width: 1px; border-style: solid;">
+                                        <a href="https://dandsltd.com" target="_blank">
+                                        <v-tooltip bottom>
+                                            <template v-slot:activator="{ on }">
+                                        <v-img
+                                            :src="require('@/assets/img/partners/dslogo.png')"
+                                            :lazy-src="require('@/assets/img/partners/dslogo.png')"
+                                            aspect-ratio="2.2"
+                                            class="white"
+                                            v-on="on"
+                                        >
+                                            <v-layout
+                                                slot="placeholder"
+                                                fill-height
+                                                align-center
+                                                justify-center
+                                                ma-0
+                                            >
+                                                <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                                            </v-layout>
+                                        </v-img>
+                                        </template>
+                                        <span class="google-font">D&amp;S Global Solutions</span>
+                                        </v-tooltip>
+                                        </a>
+                                    </v-card>
+                                    <v-card flat tile class="d-flex pa-2 ma-1 elevation-1" style="border-radius:5px;border-width: 1px; border-style: solid;">
+                                        <a href="https://iquestgroup.com" target="_blank">
+                                        <v-tooltip bottom>
+                                            <template v-slot:activator="{ on }">
+                                        <v-img
+                                            :src="require('@/assets/img/partners/iquest.png')"
+                                            :lazy-src="require('@/assets/img/partners/iquest.png')"
+                                            aspect-ratio="2.4"
+                                            class="white"
+                                            v-on="on"
+                                        >
+                                            <v-layout
+                                                slot="placeholder"
+                                                fill-height
+                                                align-center
+                                                justify-center
+                                                ma-0
+                                            >
+                                                <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                                            </v-layout>
+                                        </v-img>
+                                        </template>
+                                        <span class="google-font">iQuest Group</span>
+                                        </v-tooltip>
+                                        </a>
+                                    </v-card>
+                                    <!--<v-card flat tile class="d-flex pa-2 ma-1 elevation-1" style="border-radius:5px;border-width: 1px; border-style: solid;">
+                                        <a href="https://www.softelligence.net" target="_blank">
+                                        <v-tooltip bottom>
+                                            <template v-slot:activator="{ on }">
+                                        <v-img
+                                            :src="require('@/assets/img/partners/sftl1.png')"
+                                            :lazy-src="require('@/assets/img/partners/sftl1.png')"
+                                            aspect-ratio="2.4"
+                                            class="white"
+                                            v-on="on"
+                                        >
+                                            <v-layout
+                                                slot="placeholder"
+                                                fill-height
+                                                align-center
+                                                justify-center
+                                                ma-0
+                                            >
+                                                <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                                            </v-layout>
+                                        </v-img>
+                                        </template>
+                                        <span class="google-font">Softelligence Engineering</span>
+                                        </v-tooltip>
+                                        </a>
+                                    </v-card>-->
+                                    </v-flex>
+
+                                </v-layout>
+                                <v-layout row wrap class="ma-0 pa-0">
+                                    <v-flex
+                                        xs8
+                                        md4
+                                        sm6
+                                        d-flex
+                                        class="pa-0 white elevation-0"
+                                    >
+                                   
+                                    <v-card flat tile class="d-flex pa-2 ma-1 elevation-1" style="border-radius:5px;border-width: 1px; border-style: solid;">
+                                        <a href="https://www.softelligence.net" target="_blank">
+                                        <v-tooltip bottom>
+                                            <template v-slot:activator="{ on }">
+                                        <v-img
+                                            :src="require('@/assets/img/partners/sftl1.png')"
+                                            :lazy-src="require('@/assets/img/partners/sftl1.png')"
+                                            aspect-ratio="2.4"
+                                            class="white"
+                                            v-on="on"
+                                        >
+                                            <v-layout
+                                                slot="placeholder"
+                                                fill-height
+                                                align-center
+                                                justify-center
+                                                ma-0
+                                            >
+                                                <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                                            </v-layout>
+                                        </v-img>
+                                        </template>
+                                        <span class="google-font">Softelligence Engineering</span>
+                                        </v-tooltip>
+                                        </a>
+                                    </v-card>
+                                     <v-card flat tile class="d-flex pa-2 ma-1 elevation-1" style="border-radius:5px;border-width: 1px; border-style: solid;">
+                                        <a href="https://www.caphyon.com" target="_blank">
+                                        <v-tooltip bottom>
+                                            <template v-slot:activator="{ on }">
+                                        <v-img
+                                            :src="require('@/assets/img/partners/caphyon.jpeg')"
+                                            :lazy-src="require('@/assets/img/partners/caphyon.jpeg')"
+                                            aspect-ratio="3"
+                                            class="white"
+                                            v-on="on"
+                                        >
+                                            <v-layout
+                                                slot="placeholder"
+                                                fill-height
+                                                align-center
+                                                justify-center
+                                                ma-0
+                                            >
+                                                <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                                            </v-layout>
+                                        </v-img>
+                                        </template>
+                                        <span class="google-font">Caphyon</span>
                                         </v-tooltip>
                                         </a>
                                     </v-card>
