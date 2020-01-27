@@ -48,5 +48,15 @@
         "github":"",
         "profileImage":"Andreea.jpeg",
         "website":""
+    },
+    {
+        "name":"Adina Gaciu",
+        "designation":"Co-organizer",
+        "company": "QuEST Global Services",
+        "twitter":"",
+        "linkedin":"https://www.linkedin.com/in/adina-gaciu/",
+        "github":"",
+        "profileImage":"Adina.jpg",
+        "website":""
     }   
 ]
